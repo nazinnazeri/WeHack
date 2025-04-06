@@ -3,9 +3,9 @@ import Link from 'next/link';
 import React from 'react';
 
 const NAV_LINKS = [
-  { href: '/features', key: 'features', label: 'Features' },
-  { href: '/about-us', key: 'about-us', label: 'About Us' },
-  { href: '/contact', key: 'contact ', label: 'Contact' },
+  { href: '/feed', key: 'feed', label: 'Feed' },
+  { href: '/timecapsule', key: 'timecapsule', label: 'Time Capsule' },
+  { href: '/login', key: 'login ', label: 'Log In' },
 ];
 
 const Navbar = () => {
@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className="text-darkblue relative p-10">
       <div className="mx-auto flexBetween padding-container">
         <Link className="text-3xl font-semibold" href="/">
-            CRNCL
+            CHRNCL.
         </Link>
 
         <ul className="gap-4 lg:gap-12 flex">
